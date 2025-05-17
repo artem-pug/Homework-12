@@ -1,8 +1,8 @@
 //Создание класса книга
 public class Book {
-    String title;
-    Author author;
-    int yearOfPublication;
+    private String title;
+    private Author author;
+    private int yearOfPublication;
 // конструктор
     public Book(String title, Author author, int yearOfPublication) {
         this.title = title;

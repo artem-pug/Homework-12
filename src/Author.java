@@ -1,7 +1,7 @@
 //Создание класса автор
 public class Author {
-    String name;
-    String surname;
+   private String name;
+   private String surname;
     //Контруктор
     public Author(String name, String surname) {
         this.name=name;
