@@ -14,6 +14,12 @@ public class App {
         //Вносим измение даты с помощью сеттера
         book2.setYearOfPublication(1923);
         System.out.println("Изменение даты публикации книги: " + book2.getTitle() + ": " + book2.getYearOfPublication());
+        System.out.println(author1);
+        System.out.println(author2);
+        System.out.println(book1);
+        System.out.println(book2);
+
+
     }
 
 
